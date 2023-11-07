@@ -1,0 +1,20 @@
+<!-- portfolio_add.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Portfolio Item</title>
+</head>
+<body>
+  <h1>Add New Portfolio Item</h1>
+  <form method="post" action="/add">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" required>
+    <br>
+    <label for="description">Description:</label>
+    <textarea name="description" id="description" required></textarea>
+    <br>
+    <button type="submit">Add Item</button>
+  </form>
+  <a href="/">Back to List</a>
+</body>
+</html>
